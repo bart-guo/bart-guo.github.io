@@ -11,8 +11,16 @@ html,body,div,span,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acron
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
-ol,ul,li {
-	list-style:none;
+/*ol,ul,li {*/
+/*	list-style:none;*/
+/*}*/
+ol{
+	margin-left: 1em;
+	clear: both;
+	/*padding-top: 1em;*/
+}
+li{
+	margin-left: 2em;
 }
 blockquote,q {
 	quotes:none;
@@ -33,7 +41,7 @@ a {
 	outline:none;
 	color:#16418a;
 	text-decoration:none;
-	-webkit-backface-visibility:hidden;
+	visibility:hidden;
 }
 a:focus {
 	outline:none;
